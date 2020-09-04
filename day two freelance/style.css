@@ -12,7 +12,7 @@ body{
 }
 .div{
     background:linear-gradient(rgba(32, 32, 32,0.5), rgba(32, 32, 32,0.5)), url(./images/pexels-hitesh-choudhary-340152-min.jpg);
-    height: 110vh;
+    height: 100vh;
     background-size: cover;
     background-position: center center;
 }
@@ -132,10 +132,7 @@ margin-bottom: 1em;
     border-bottom:2px solid silver;
     border-top:2px solid silver;
 }
-.card1 h3{
-    
 
-}
 li{
     list-style: none;
     margin-bottom: 10px;
@@ -224,10 +221,13 @@ footer{
   }
 
 @media only screen and (max-width:700px){
-  
+  header{
+      padding: 2em;
+  }
     .show-mobile {
     display: block;
   }
+  
   .hide-mobile{
       display:none;
   }
@@ -264,6 +264,7 @@ footer{
   .section1{
       display:grid;
       grid-template-columns: 1fr;
+      width: 100%;
   }
   .section2{
     margin: 2em 1em;
